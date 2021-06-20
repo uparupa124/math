@@ -19,16 +19,24 @@
 # p a
 
 
-n = 1
+# n = 1
 
-a = 13
-while a < 0 do
-  a = -2 * n + 15
+# a = 13
+# while a < 0 do
+#   a = -2 * n + 15
 
-  n = n + 1
+#   n = n + 1
 
 
-  p n
-end
+#   p n
+# end
 
-  
+  p "初項を入力してください"
+  a = gets.to_i
+  p "公差を入力してください"
+  d = gets.to_i
+  p "項数を入力してください"
+  n = gets.to_i
+
+  s = ( (n) * (a + (a+d*(n-1))) ) / 2
+  p "和は#{s}です"
