@@ -44,7 +44,7 @@
 
   n = 1
 
-  while n < 6 do
+  while n <= 7 do
 
   a = 2 * n +2
 
